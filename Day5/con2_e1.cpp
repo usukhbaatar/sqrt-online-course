@@ -9,6 +9,7 @@ int main() {
 	s = a + b + c;
 
 	for (int i = 4; i <= n; i++) {
+		int x;
 		a = b;
 		b = c;
 		cin >> c;
