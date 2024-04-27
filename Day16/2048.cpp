@@ -69,7 +69,7 @@ board put(board a) {
 }
 
 // BEGIN
-// Энд фунз загалж ашиглаж болно
+// Энд функц заралж ашиглаж болно
 
 char play(array<array<int, 4>, 4> board) {
     string str = "LURD";
