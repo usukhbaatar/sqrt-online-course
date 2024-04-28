@@ -90,8 +90,10 @@ int main(int argc, char **argv) {
 	clock_t begin = clock();
 	while (true) {
 		char c = play(a);
+		rep(i, j) cout << a[i][j] << " \n"[j == 3];
+		cout << c << "\n";
 		if (c != 'U' && c != 'R' && c != 'D' && c != 'L') break;
-		board b = move(a, c); 
+		board b = move(a, c);
 		if (itr > 0 && b == a) break;
 		a = put(b);
 		double timer = double(clock() - begin) / CLOCKS_PER_SEC;
